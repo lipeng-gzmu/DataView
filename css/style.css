@@ -29,10 +29,44 @@
 }
 .next{
 	text-align: right;
-	margin-top: 280px;
-	margin-right: 115px;
-	font-size: 35px;
+	margin-top: 260px;
+	height: 50px;
+	width:200px;
+	line-height: 50px;
+	/*margin-right: 100px;*/
+	margin-left: 1125px;
+	font-size: 20px;
 	color: saddlebrown;
+}
+.next img{
+	display: block;
+	float: left;
+	width: 60px;
+	height: 50px;
+}
+.imgdiv{
+	float: left;
+	width: 60px;
+	height: 50px;
+}
+.next a:link{
+	display: block;
+	width: 100px;
+	height: 30px;
+	float: left;
+	margin-top: 10px;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	color: saddlebrown;
+}
+
+.next a:hover{
+	color: saddlebrown;
+}
+.next a:active{
+	color: orange;
+	font-size: 25px;
 }
 .catalogueBigBox{
 	height: 600px;
