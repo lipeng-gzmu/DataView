@@ -1,11 +1,11 @@
 .bigBox{
     height: 600px;
-    width: 100%;
+    width: 1350px;
     margin: 0 auto;
     margin-top: 0px;
 	position: absolute;
     
-    background-image:url(../img/封面图片/封面4.jpg) /*style="position:absolute; left:0px; top:0px; width:100%; height:100% width="100%" height="100%;*/
+    background-image:url(../img/封面图片/封面4.jpg) ;/*style="position:absolute; left:0px; top:0px; width:100%; height:100% width="100%" height="100%;*/
 
    }
    
@@ -30,8 +30,16 @@
 .next{
 	text-align: right;
 	margin-top: 280px;
-	margin-right: 130px;
+	margin-right: 115px;
 	font-size: 35px;
 	color: saddlebrown;
 }
+.catalogueBigBox{
+	height: 600px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0px;
+	position: absolute;
+	background: url(../img/目录图片/QQ图片20210513201037.jpg) no-repeat;
+	}
 
