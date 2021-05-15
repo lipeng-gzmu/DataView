@@ -1,0 +1,40 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+.bigBox{
+	display: none;
+	width: 1200px;
+	height: 550px;
+	background: burlywood;
+	margin: 0 auto;
+}
+.textitle{
+	width: 550px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 20px;
+}
+.thirdBox{
+	width: 500px;
+	height: 350px;
+	line-height: 400px;
+	background: rgba(0,0,0,.1);
+	position: absolute;
+	float: left;
+	margin-left: 60px;
+	margin-top: 80px;
+}
+.fourthBox{
+	width: 500px;
+	height: 350px;
+	line-height: 200px;
+	background: rgba(0,0,0,.1);
+	position:absolute;
+	float: left;
+	margin-left: 630px;
+	margin-top: 180px;
+}
