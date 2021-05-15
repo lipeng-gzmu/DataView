@@ -49,16 +49,49 @@
 	position: relative;
 	top: 140px;
 	margin-left: 310px;
-	line-height: 50px;
+	line-height: 30px;
+	font-weight: 600;
 }	
 .catalogue2{
 	font-size: 20px;
 	color: #8B4513;
 	font-family: "gill sans mt";
 	position: relative;
-	top: 250px;
+	top: 270px;
 	margin-left: 460px;
 	line-height: 80px;
+	font-weight: 600;
+}
+.catalogue3{
+	font-size: 20px;
+	color: #8B4513;
+	font-family: "gill sans mt";
+	position: relative;
+	top:280px;
+	margin-left: 460px;
+	line-height: 100px;
+	font-weight: 600;
+	
+}
+.catalogue4{
+	font-size: 50px;
+	color: #8B4513;
+	font-family: "gill sans mt";
+	position: relative;
+	margin-top: 0px;
+	margin-left: 570px;
+	line-height: 80px;
+	font-weight: 600;
+}
+.catalogue5{
+	font-size: 27px;
+	color: #8B4513;
+	font-family: "gill sans mt";
+    float: right;
+    line-height: 0px;
+	font-weight: 600;
+    margin-right: 370px;
+   
 }
 
 
