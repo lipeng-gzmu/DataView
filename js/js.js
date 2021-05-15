@@ -10,4 +10,6 @@ function fadeview(){
 	
 }
 	
-
+$(".catalogue1").click(funtion(){
+	alert("第一封信")
+})
