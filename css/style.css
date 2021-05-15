@@ -71,19 +71,26 @@
 
 .scrollslider{
 	display: block;
-	width: 250px;
+	width: 220px;
 	height: 100px;
 	position: relative;
-	background: red;
+}
+.scrollslider p{
+	display: block;
+	text-align: left;
+	margin-left: 20px;
 }
 .catalogue{
     float: right;
-	width: 250px;
+    margin-right: 5px;
+	width: 240px;
 	height: 100px;
 	position: relative;
+	font-size: 11px;
 	top: 10px;
-	
-	background-color: lightpink;
+	border-radius: 20px;
+	background: rgba(0,0,0,0.1);
+	/*background-color: lightpink;*/
 }
 
 
@@ -112,7 +119,10 @@
 	line-height: 30px;
 	font-weight: 600;
 }
-
+.catalogueBigBox a:hover{
+	
+	cursor: pointer;
+}
 .catalogue2 {
 	font-size: 20px;
 	color: #8B4513;
@@ -168,6 +178,9 @@
 	background-color: white;
 	z-index: 1002;
 	overflow: auto;
+}
+.firstLetter a:hover{
+	cursor: pointer;
 }
 .closeFirstLetter{
 	color: red;
