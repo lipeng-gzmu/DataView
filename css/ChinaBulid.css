@@ -1,0 +1,52 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+.firstLetter{
+	display: none;
+	width: 1200px;
+	height: 550px;
+	position: absolute;
+	top:25px;
+	left: 70px;
+	background: burlywood;
+	margin: 0 auto;
+}
+.textitle{
+	width: 550px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 20px;
+}
+.thirdBox{
+	width: 500px;
+	height: 350px;
+	line-height: 400px;
+	background: rgba(0,0,0,.1);
+	position: absolute;
+	float: left;
+	margin-left: 60px;
+	margin-top: 80px;
+}
+.fourthBox{
+	width: 500px;
+	height: 350px;
+	line-height: 200px;
+	background: rgba(0,0,0,.1);
+	position:absolute;
+	float: left;
+	margin-left: 630px;
+	margin-top: 180px;
+}
+.closeFirstLetter{
+	display: block;
+	color: red;
+	float: right;
+	margin-right: 0px;
+	margin-top: 0px;
+	width: 30px;
+	height: 30px;
+}
