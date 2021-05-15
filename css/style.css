@@ -172,7 +172,7 @@
 	height: 20px;
 	float: left;
 	font-size: 15px;
-	color: darkgoldenrod;
+	color: #A52A2A;
 	line-height: 30px;
 	position: relative;
 	top: 297px;
@@ -198,6 +198,7 @@
 	position: relative;
 	top: 30px;
 	left: 550px;
+	color: #8B4513;
 }
 .catalogue5 {
 	width: 220px;
@@ -214,8 +215,7 @@
 	width: 100px;
 	height: 20px;
 	float: left;
-	font-size: 15px;
-	color: darkgoldenrod;
+	font-size: 17px;
 	position: relative;
 	top: 70px;
 	left: 675px;
