@@ -1,55 +1,59 @@
-.bigBox{
-    height: 600px;
-    width: 1350px;
-    margin: 0 auto;
-    margin-top: 0px;
+.bigBox {
+	height: 600px;
+	width: 1350px;
+	margin: 0 auto;
+	margin-top: 0px;
 	position: absolute;
-    
-    background-image:url(../img/封面图片/封面4.jpg) ;/*style="position:absolute; left:0px; top:0px; width:100%; height:100% width="100%" height="100%;*/
+	background-image: url(../img/封面图片/封面4.jpg);
+	/*style="position:absolute; left:0px; top:0px; width:100%; height:100% width="100%" height="100%;*/
+}
 
-   }
-   
-.title1{
+.title1 {
 	margin-left: 380px;
-    line-height: 70px;
+	line-height: 70px;
 	font-size: 35px;
 	font-family: "gill sans mt";
 	color: brown;
 	position: relative;
-	top:28px;
+	top: 28px;
 }
-.title2{
-    margin-left: 450px;
-    line-height: 80px;
+
+.title2 {
+	margin-left: 450px;
+	line-height: 80px;
 	font-size: 50px;
 	font-family: "gill sans mt";
 	color: brown;
 	position: relative;
-	top:8px;
+	top: 8px;
 }
-.next{
+
+.next {
 	text-align: right;
 	margin-top: 260px;
 	height: 50px;
-	width:200px;
+	width: 200px;
 	line-height: 50px;
 	/*margin-right: 100px;*/
 	margin-left: 1125px;
 	font-size: 20px;
 	color: saddlebrown;
 }
-.next img{
+
+.next img {
 	display: block;
 	float: left;
 	width: 60px;
 	height: 50px;
 }
-.imgdiv{
+
+.imgdiv {
 	float: left;
 	width: 60px;
 	height: 50px;
 }
-.next a:link{
+
+.next a:link {
 	display: block;
 	width: 100px;
 	height: 30px;
@@ -61,22 +65,25 @@
 	color: saddlebrown;
 }
 
-.next a:hover{
+.next a:hover {
 	color: saddlebrown;
 }
-.next a:active{
+
+.next a:active {
 	color: orange;
 	font-size: 25px;
 }
-.catalogueBigBox{
+
+.catalogueBigBox {
 	height: 600px;
-    width: 1350px;
-    margin: 0 auto;
-    margin-top: 0px;
+	width: 1350px;
+	margin: 0 auto;
+	margin-top: 0px;
 	position: absolute;
 	background: url(../img/目录图片/目录1.jpg) no-repeat;
-	}
-.catalogue1{
+}
+
+.catalogue1 {
 	font-size: 25px;
 	color: #8B4513;
 	font-family: "gill sans mt";
@@ -85,8 +92,9 @@
 	margin-left: 310px;
 	line-height: 30px;
 	font-weight: 600;
-}	
-.catalogue2{
+}
+
+.catalogue2 {
 	font-size: 20px;
 	color: #8B4513;
 	font-family: "gill sans mt";
@@ -96,18 +104,19 @@
 	line-height: 80px;
 	font-weight: 600;
 }
-.catalogue3{
+
+.catalogue3 {
 	font-size: 20px;
 	color: #8B4513;
 	font-family: "gill sans mt";
 	position: relative;
-	top:280px;
+	top: 280px;
 	margin-left: 460px;
 	line-height: 100px;
 	font-weight: 600;
-	
 }
-.catalogue4{
+
+.catalogue4 {
 	font-size: 50px;
 	color: #8B4513;
 	font-family: "gill sans mt";
@@ -117,15 +126,37 @@
 	line-height: 80px;
 	font-weight: 600;
 }
-.catalogue5{
+
+.catalogue5 {
 	font-size: 27px;
 	color: #8B4513;
 	font-family: "gill sans mt";
-    float: right;
-    line-height: 0px;
+	float: right;
+	line-height: 0px;
 	font-weight: 600;
-    margin-right: 370px;
-   
+	margin-right: 370px;
 }
 
-
+.firstLetter {
+	display: none;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	width: 75%;
+	height: 70%;
+	padding: 0px;
+	/*border: 10px solid orange;*/
+	background-color: white;
+	z-index: 1002;
+	overflow: auto;
+}
+.closeFirstLetter{
+	color: red;
+	line-height: 30px;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	margin-right: 0px;
+	margin-top: 0px;
+	float: right;
+}
