@@ -70,10 +70,29 @@
 }
 .catalogueBigBox{
 	height: 600px;
-    width: 100%;
+    width: 1350px;
     margin: 0 auto;
     margin-top: 0px;
 	position: absolute;
-	background: url(../img/目录图片/QQ图片20210513201037.jpg) no-repeat;
+	background: url(../img/目录图片/目录1.jpg) no-repeat;
 	}
+.catalogue1{
+	font-size: 25px;
+	color: #8B4513;
+	font-family: "gill sans mt";
+	position: relative;
+	top: 140px;
+	margin-left: 310px;
+	line-height: 50px;
+}	
+.catalogue2{
+	font-size: 20px;
+	color: #8B4513;
+	font-family: "gill sans mt";
+	position: relative;
+	top: 250px;
+	margin-left: 460px;
+	line-height: 80px;
+}
+
 
