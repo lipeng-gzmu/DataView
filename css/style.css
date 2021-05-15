@@ -71,19 +71,26 @@
 
 .scrollslider{
 	display: block;
-	width: 250px;
+	width: 220px;
 	height: 100px;
 	position: relative;
-	background: red;
+}
+.scrollslider p{
+	display: block;
+	text-align: left;
+	margin-left: 20px;
 }
 .catalogue{
     float: right;
-	width: 250px;
+    margin-right: 5px;
+	width: 240px;
 	height: 100px;
 	position: relative;
+	font-size: 11px;
 	top: 10px;
-	
-	background-color: lightpink;
+	border-radius: 20px;
+	background: rgba(0,0,0,0.1);
+	/*background-color: lightpink;*/
 }
 
 
@@ -112,7 +119,20 @@
 	line-height: 30px;
 	font-weight: 600;
 }
-
+.catalogue11{
+	width: 150px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	line-height: 30px;
+	position: relative;
+	top: 150px;
+	margin-left: 290px;
+}
+.catalogueBigBox a:hover{
+	
+	cursor: pointer;
+}
 .catalogue2 {
 	font-size: 20px;
 	color: #8B4513;
@@ -123,39 +143,83 @@
 	line-height: 80px;
 	font-weight: 600;
 }
-
-.catalogue3 {
-	font-size: 20px;
-	color: #8B4513;
-	font-family: "gill sans mt";
+.catalogue22{
+	width: 130px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	color: darkgoldenrod;
+	line-height: 30px;
 	position: relative;
-	top: 280px;
-	margin-left: 460px;
-	line-height: 100px;
-	font-weight: 600;
+	top: 240px;
+	margin-left: 450px;
 }
 
+.catalogue3 {
+	width: 217px;
+    height: 50px;
+    font-size: 20px;
+    color: #8B4513;
+    font-family: "gill sans mt";
+    position: relative;
+    top: 300px;
+    left: 461px;
+    font-weight: 600;
+	
+}
+.catalogue33{
+	width: 130px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	color: darkgoldenrod;
+	line-height: 30px;
+	position: relative;
+	top: 297px;
+	margin-left: 450px;
+}
 .catalogue4 {
+	width: 230px;
+	height: 60px;
 	font-size: 50px;
 	color: #8B4513;
 	font-family: "gill sans mt";
 	position: relative;
-	margin-top: 0px;
-	margin-left: 570px;
-	line-height: 80px;
+	top: 0px;
+	left: 550px;
 	font-weight: 600;
 }
-
+.catalogue44{
+	width: 200px;
+	height: 40px;
+	float: left;
+	font-size: 18px;
+	line-height: 30px;
+	position: relative;
+	top: 30px;
+	left: 550px;
+}
 .catalogue5 {
+	width: 220px;
+	height: 60px;
 	font-size: 27px;
 	color: #8B4513;
 	font-family: "gill sans mt";
 	float: right;
-	line-height: 0px;
 	font-weight: 600;
-	margin-right: 370px;
+	margin-right: 260px;
+	margin-top: 30px;
 }
-
+.catalogue55{
+	width: 100px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	color: darkgoldenrod;
+	position: relative;
+	top: 70px;
+	left: 675px;
+}
 .firstLetter {
 	display: none;
 	position: absolute;
@@ -168,6 +232,9 @@
 	background-color: white;
 	z-index: 1002;
 	overflow: auto;
+}
+.firstLetter a:hover{
+	cursor: pointer;
 }
 .closeFirstLetter{
 	color: red;
