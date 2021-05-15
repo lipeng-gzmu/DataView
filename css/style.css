@@ -106,18 +106,20 @@
 	margin: 0 auto;
 	margin-top: 0px;
 	position: absolute;
-	background: url(../img/目录图片/目录1.jpg) no-repeat;
+	background: url(../img/目录图片/目录-1.jpg) no-repeat;
 }
 
 .catalogue1 {
 	font-size: 25px;
-	color: #8B4513;
+	color: white;
 	font-family: "gill sans mt";
 	position: relative;
 	top: 140px;
-	margin-left: 310px;
+	margin-left: 320px;
 	line-height: 30px;
 	font-weight: 600;
+	width: 150px;
+	height: 20px;
 }
 .catalogue11{
 	width: 150px;
@@ -134,13 +136,14 @@
 	cursor: pointer;
 }
 .catalogue2 {
-	font-size: 20px;
-	color: #8B4513;
+	width: 150px;
+	height: 90px;
+	font-size: 17px;
+	color: white;
 	font-family: "gill sans mt";
 	position: relative;
-	top: 270px;
-	margin-left: 460px;
-	line-height: 80px;
+	top:303px;
+	margin-left: 477px;
 	font-weight: 600;
 }
 .catalogue22{
@@ -148,7 +151,6 @@
 	height: 20px;
 	float: left;
 	font-size: 15px;
-	color: darkgoldenrod;
 	line-height: 30px;
 	position: relative;
 	top: 240px;
@@ -158,11 +160,11 @@
 .catalogue3 {
 	width: 217px;
     height: 50px;
-    font-size: 20px;
-    color: #8B4513;
+    font-size: 17px;
+    color: white;
     font-family: "gill sans mt";
     position: relative;
-    top: 300px;
+    top: 298px;
     left: 461px;
     font-weight: 600;
 	
@@ -172,7 +174,6 @@
 	height: 20px;
 	float: left;
 	font-size: 15px;
-	color: #A52A2A;
 	line-height: 30px;
 	position: relative;
 	top: 297px;
@@ -181,12 +182,12 @@
 .catalogue4 {
 	width: 230px;
 	height: 60px;
-	font-size: 50px;
-	color: #8B4513;
+	font-size: 35px;
+	color:  white;
 	font-family: "gill sans mt";
 	position: relative;
-	top: 0px;
-	left: 550px;
+	top: -88px;
+	left: 616px;
 	font-weight: 600;
 }
 .catalogue44{
@@ -196,20 +197,20 @@
 	font-size: 18px;
 	line-height: 30px;
 	position: relative;
-	top: 30px;
+	top: -58px;
 	left: 550px;
-	color: #8B4513;
 }
 .catalogue5 {
 	width: 220px;
 	height: 60px;
-	font-size: 27px;
-	color: #8B4513;
+	font-size: 29px;
+	color: white;
 	font-family: "gill sans mt";
-	float: right;
+	float: left;
 	font-weight: 600;
-	margin-right: 260px;
-	margin-top: 30px;
+	position: relative;
+	left: 670px;
+	top: 15px;
 }
 .catalogue55{
 	width: 100px;
@@ -218,7 +219,7 @@
 	font-size: 17px;
 	position: relative;
 	top: 70px;
-	left: 675px;
+	left: 460px;
 }
 .firstLetter {
 	display: none;
