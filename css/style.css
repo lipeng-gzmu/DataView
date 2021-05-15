@@ -69,12 +69,31 @@
 	color: saddlebrown;
 }
 
+.scrollslider{
+	display: block;
+	width: 250px;
+	height: 100px;
+	position: relative;
+	background: red;
+}
+.catalogue{
+    float: right;
+	width: 250px;
+	height: 100px;
+	position: relative;
+	top: 10px;
+	
+	background-color: lightpink;
+}
+
+
 .next a:active {
 	color: orange;
 	font-size: 25px;
 }
 
 .catalogueBigBox {
+
 	height: 600px;
 	width: 1350px;
 	margin: 0 auto;
