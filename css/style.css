@@ -34,6 +34,22 @@
 	font-size: 35px;
 	color: saddlebrown;
 }
+.scrollslider{
+	display: block;
+	width: 250px;
+	height: 100px;
+	position: relative;
+	background: red;
+}
+.catalogue{
+    float: right;
+	width: 250px;
+	height: 100px;
+	position: relative;
+	top: 10px;
+	
+	background-color: lightpink;
+}
 .catalogueBigBox{
 	height: 600px;
     width: 1350px;
