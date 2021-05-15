@@ -246,3 +246,11 @@
 	margin-top: 0px;
 	float: right;
 }
+.timetiao{
+	display: block;
+	margin-top:10px;
+	margin-right: 20px;
+	width: 100px;
+	float: right;
+	color: #bd6d04;
+}
