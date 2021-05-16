@@ -234,7 +234,71 @@
 	z-index: 1002;
 	overflow: auto;
 }
+.secondLetter {
+	display: none;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	width: 75%;
+	height: 70%;
+	padding: 0px;
+	/*border: 10px solid orange;*/
+	background-color: white;
+	z-index: 1002;
+	overflow: auto;
+}
+.thirdLetter {
+	display: none;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	width: 75%;
+	height: 70%;
+	padding: 0px;
+	/*border: 10px solid orange;*/
+	background-color: white;
+	z-index: 1002;
+	overflow: auto;
+}
+.fourthLetter {
+	display: none;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	width: 75%;
+	height: 70%;
+	padding: 0px;
+	/*border: 10px solid orange;*/
+	background-color: white;
+	z-index: 1002;
+	overflow: auto;
+}
+.fifthLetter {
+	display: none;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	width: 75%;
+	height: 70%;
+	padding: 0px;
+	/*border: 10px solid orange;*/
+	background-color: white;
+	z-index: 1002;
+	overflow: auto;
+}
 .firstLetter a:hover{
+	cursor: pointer;
+}
+.secondLetter a:hover{
+	cursor: pointer;
+}
+.thirdLetter a:hover{
+	cursor: pointer;
+}
+.fourthLetter a:hover{
+	cursor: pointer;
+}
+.fifthLetter a:hover{
 	cursor: pointer;
 }
 .closeFirstLetter{
