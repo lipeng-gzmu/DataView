@@ -40,7 +40,7 @@
                 radius : [i * 4 + 10, i * 4 + 13],
                 data:[
                     {value: i * 0.5 ,  name:'国内战争'},
-                    {value: i * 0.40,  name:'抗日战争'},
+                    {value: i * 0.70,  name:'抗日战争'},
                     {value: i * 0.15,  name:'解放战争'},
                 ]
             })         
