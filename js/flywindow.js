@@ -1,50 +1,31 @@
-//创建元素移动的效果
-    function createMove(startLeftPosition, startTopPosition) {
-        //元素移动的终止位置以及样式
-        var tar = {
-            left: startLeftPosition,
-            top: startTopPosition,
-            width: "20px",
-            height: "20px",
-            fontSize: "11px",
-            opacity: 1
-        };
-        //创建移动的元素
-        $(document.body).append(document.getElementById("c1"));
-        //为创建的元素添加样式
-        $("#c1").css({
-            width: "60px",
-            height: "60px",
-            fontSize: "40px",
-            /*backgroundColor: "red",*/
-            position: "absolute",
-            opacity: 0
-        })
-        //为创建的元素添加动画
-        $("#c1").animate(tar, 1000,"linear",function() {
-            $(this).removeAttr("class").css({
-                width: "20px",
-                height: "20px",
-                /*backgroundColor: "blue",*/
-                position: "absolute"
-            });
-            startShake(this,startLeftPosition);
- 
-        });
-    }
- 
-    //设置抖动的效果
-    function startShake(element,startLeftPosition) {
-        var a = true;
-        var count=0;
-        var countShake = setInterval(function() {
-            element.style.left = (a ? startLeftPosition-5: startLeftPosition+5) + 'px';
-            a = !a;
-            count++;
-            if (count == 15){
-                clearInterval(countShake);
-            }
-        }, 40);
-    }
- 
-    createMove(200,200);
+
+$("#catalogue1").click(function(){
+	createMove("0px","150px","left",$("#windows02"))
+})
+function createMove(marginLeft, marginTop,floatdirec,object){
+	var tar={
+    left: 0,
+    top: 0,
+	width: "470px",
+	height: "300px",
+	lineHeight: "200px",
+	boxShadow: "10px 10px 10px rgba(0,0,0,.5)",
+	float: "left",
+	marginLeft: "700px",
+	marginTop: "150px",
+	opacity: 1
+	}
+	
+	$(object).css({
+	width: "470px",
+	height: "300px",
+	lineHeight: "200px",
+	boxShadow: "10px 10px 10px rgba(0,0,0,.5)",
+	position:"absolute",
+	float: floatdirec,
+	marginLeft: marginLeft,
+	marginTop: marginTop,
+	opacity: 0.1
+	})
+	$(object).animate(tar, 1000,"linear")
+}
