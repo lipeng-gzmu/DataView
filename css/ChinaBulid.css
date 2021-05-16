@@ -1,6 +1,7 @@
 *{
 	margin:0px;
 	padding: 0px;
+	
 }
 .firstLetter{
 	display: none;
@@ -11,6 +12,7 @@
 	left: 70px;
 	color: white;
 	background:url(../img/封面图片/tiananmen.jpg) rgba(0,0,0,0.2);
+	background: url(../img/窗口/窗口1.jpg);
 	margin: 0 auto;
 }
 .textitle{
