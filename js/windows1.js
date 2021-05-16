@@ -4,8 +4,8 @@
    option = {
     title : {
         text: '战争占比变化',
-        subtext: '纯属虚构',
-        x:'135',
+//      subtext: '纯属虚构',
+        x:'180',
         y:'bottom'
     },
     tooltip : {
